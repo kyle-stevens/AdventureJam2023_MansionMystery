@@ -22,7 +22,7 @@ public:
         bool room_known,
         bool room_traversed);
     ~Room();
-protected:
+public:
     string name;
     string description;
     Room* north;
