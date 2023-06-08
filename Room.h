@@ -2,13 +2,12 @@
 #include <vector>
 #include <string>
 #include "NPC.h"
-#include "Item.h"
 
 using namespace std;
 
 class Room {
 public:
-    Room();
+    Room(string room_name);
     Room(
         string room_name,
         string room_description,

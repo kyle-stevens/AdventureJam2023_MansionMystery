@@ -17,6 +17,9 @@ public:
         vector<string> npc_dialogue
         );
     ~NPC();
+    string talk();
+    Item* give(Item* item);
+
 protected:
     string name;
     string description;
@@ -24,5 +27,5 @@ protected:
     bool quest_complete;
     Item* quest_reward;
     vector<string> dialogue;
-    vector<Item> inventory; // may not be needed
+    vector<Item*> inventory; // may not be needed
 };

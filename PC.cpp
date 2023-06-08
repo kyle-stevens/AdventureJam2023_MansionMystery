@@ -33,7 +33,7 @@ vector<Item*> PC::getInventory(){
 }
 
 void PC::addInventory(Item* item){
-    this->inventory.push_back(item)
+    this->inventory.push_back(item);
 }
 
 Room* PC::getCurrentRoom(){

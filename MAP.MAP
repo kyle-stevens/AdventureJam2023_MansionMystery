@@ -1,0 +1,33 @@
+Main Entrance 
+Side Room E
+Side Room W
+==
+Main Entrance::
+north null
+east Side Room E
+south null
+west Side Room W
+up null
+down null
+DESCRIPTION
+NPC
+==
+Side Room E::
+north null
+east null
+south null
+west Main Entrance
+up null
+down null
+DESCRIPTION
+NPC
+==
+Side Room W::
+north null
+east Main Entrance
+south null
+west null
+up null
+down null
+DESCRIPTION
+NPC

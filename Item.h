@@ -12,7 +12,6 @@ public:
         string i_description, 
         float i_weight);
     ~Item();
-protected:
     string name;
     string description;
     float weight;

@@ -1,7 +1,17 @@
 #include "Room.h"
 
-Room::Room(){
-
+Room::Room(string room_name){
+    this->name = room_name;
+    this->description = nullptr;
+    this->north = nullptr;
+    this->south = nullptr;
+    this->east = nullptr;
+    this->west = nullptr;
+    this->up = nullptr;
+    this->down = nullptr;
+    this->npc = nullptr;
+    this->known = false;
+    this->traversed = false;
 }
 
 Room::Room(
